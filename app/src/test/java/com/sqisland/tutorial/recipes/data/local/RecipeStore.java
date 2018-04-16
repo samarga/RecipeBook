@@ -38,7 +38,7 @@ public class RecipeStore {
             try {
                 InputStream stream = manager.open(file.getPath());
                 if (stream != null){
-                    streams().add(stream);
+                    streams.add(stream);
                 }
             } catch (IOException e) {
             }
